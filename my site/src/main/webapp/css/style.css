@@ -1,0 +1,86 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../images/gym-background.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Container Styling */
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    max-width: 700px;
+}
+
+/* Headings Styling */
+h1, h2 {
+    margin: 10px 0;
+    color: #ffcc00;
+}
+
+/* Paragraph Styling */
+p {
+    margin: 10px 0;
+    color: #ddd;
+}
+
+/* Bullet Point List Styling */
+ul {
+    list-style-type: square;
+    text-align: left;
+    margin: 20px auto;
+    padding: 0;
+    color: white;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+/* Image Styling */
+.diet-image img {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Button Styling */
+button {
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+a {
+	background-color: #ffcc00;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* Anchor Styling */
+a:hover {
+	 background-color: #e6b800;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
